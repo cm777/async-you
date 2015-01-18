@@ -29,8 +29,4 @@ function httpPost (url, prt, id, cb) {
     postReq.end(postBody);
 }
 
-// httpClient('localhost', 8000, 3, function (err, result) {
-//     console.log(result);
-// });
-
 module.exports = httpPost;
